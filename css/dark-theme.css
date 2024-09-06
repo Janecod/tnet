@@ -1,0 +1,29 @@
+[theme='dark'] body {
+    background: url(../images/dark-bg.png);
+    background-size: cover;
+    background-position: center;
+}
+
+[theme='dark'] .home__desc span {
+    color: #eac34c;
+}
+
+[theme='dark'] .home__bg {
+    content: url(../images/home-dark-bg.png);
+}
+
+[theme='dark'] .about__title span {
+    color: #eac34c;
+}
+
+[theme='dark'] ::-webkit-scrollbar-thumb {
+    background-color: #812777c3;
+}
+
+@media(max-width: 600px) {
+    [theme='dark'] .home__bg {
+        content: url(../images/home-dark-mob-bg.png);
+        width: 100%;
+    }
+}
+

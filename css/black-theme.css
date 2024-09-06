@@ -1,0 +1,144 @@
+[theme='black'] body {
+    background: #0F0D0D;
+}
+
+[theme='black'] .home__bg {
+    content: url(../images/home-black-bg.png);
+}
+
+[theme='black'] .join__inner:after {
+    content: url(../images/join-right-yellow.png);
+}
+
+[theme='black'] .join__inner:before {
+    content: url(../images/join-left-yellow.png);
+}
+
+[theme='black'] .main {
+    background: unset;
+}
+
+[theme='black'] .btn {
+    background: #FFC22E;
+    color: #363636;
+    font-weight: 600;
+    text-shadow: none;
+    z-index: 1;
+}
+
+[theme='black'] .btn:after {
+    background: #FFC22E;
+    color: #363636;
+    font-weight: 600;
+    text-shadow: none;
+    z-index: -1;
+}
+
+[theme='black'] .form__input {
+    background: rgba(255, 194, 46, 0.16);
+}
+
+[theme='black'] .about__steps-item:after {
+    background: #FFC22E;
+    box-shadow: 0px 0px 32px rgba(255, 194, 46, 0.81);
+    color: #534B36;
+}
+
+[theme='black'] .about__dates {
+    border: 3px solid #F2C94C;
+}
+
+[theme='black'] .header__outer_active {
+    background: #000000d4;
+}
+
+[theme='black'] .progress-line {
+    background: #FFC22E;
+}
+
+[theme='black'] .progress-block {
+    background: rgba(242, 201, 76, 0.1);
+}
+
+[theme='black'] .progress-text-inner {
+    color: #534B36;
+    font-weight: 600;
+}
+
+[theme='black'] .progress-text {
+    z-index: 2;
+}
+
+[theme='black'] .home__desc span {
+    color: #FFC22E;
+}
+
+[theme='black'] .about__title span {
+    color: #FFC22E;
+}
+
+[theme='black'] .footer__controll {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+[theme='black'] .footer__controll:before {
+    width: 52px;
+    height: 52px;
+    background: #FFC22E;
+    position: absolute;
+    border-radius: 100%;
+    top: 0px;
+    left: 0;
+    content: '';
+}
+
+[theme='black'] .footer__controll:after {
+    position: absolute;
+    content: url(../images/arrow-up.png);
+    top: 17px;
+}
+
+.footer__link {
+    background: #0088cc;
+    border-radius: 2.84141px;
+    padding: 4px 5px 0 5px;
+}
+
+[theme='black'] .footer__link {
+    background: rgba(255, 255, 255, 0.19);
+}
+
+[theme='black'] .footer__controll {
+    width: unset;
+    height: unset;
+}
+
+[theme='black'] ::-webkit-scrollbar-thumb {
+    background-color: #FFC22E;
+}
+
+@media(max-width: 900px) {
+    [theme='black'] .home__bg {
+        content: url(../images/home-black-mob-bg.png);
+    }
+
+    [theme='black'] body {
+        background: #0F0D0D !important;
+    }
+
+    [theme='black'] .progress,
+    [theme='black'] .about__inner {
+        background: none;
+    }
+
+    [theme='black'] .about__inner {
+        background: rgba(0, 0, 0, 0.25);
+    }
+
+    [theme='black'] .footer__controll {
+        border: solid 15px #0f0d0d;
+    }
+}

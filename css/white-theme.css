@@ -1,0 +1,236 @@
+[theme='white']
+body {
+    background: #FAF8F8;
+    color: #4D0D0C;
+}
+
+[theme='white'] .home__desc {
+    background: rgba(246, 246, 246, 0.3);
+    border: 2.09412px solid #D1D1D1;
+    backdrop-filter: blur(10.5px);
+    border-radius: 15.7059px;
+    font-weight: 500;
+}
+
+[theme='white'] .home__desc back {
+    background: rgba(0, 0, 0, 0.08);
+}
+
+[theme='white'] .home__bg {
+    content: url(../images/home-white-bg.png);
+}
+
+[theme='white'] .join__inner:after {
+    content: url(../images/join-right-white.png);
+}
+
+[theme='white'] .join__inner:before {
+    content: url(../images/join-left-white.png);
+}
+
+[theme='white'] .main {
+    background: unset;
+}
+
+[theme='white'] .btn {
+    background: #FFC22E;
+    color: #363636;
+    font-weight: 600;
+    text-shadow: none;
+    z-index: 1;
+}
+
+[theme='white'] .btn:after {
+    background: #FFC22E;
+    color: #363636;
+    font-weight: 600;
+    text-shadow: none;
+    z-index: -1;
+}
+
+[theme='white'] .form__input {
+    background: rgba(255, 194, 46, 0.16);
+}
+
+[theme='white'] .about__steps-item:after {
+    background: #FFC22E;
+    box-shadow: none;
+    color: #534B36;
+}
+
+[theme='white'] .progress {
+    border: 1px solid rgba(0, 0, 0, 0.18);
+}
+
+[theme='white'] .progress-outer {
+    background: url(../images/progress-noise-light.png);
+}
+
+[theme='white'] .about__block {
+    background: url(../images/about-noise-light.png);
+    border: 1px solid rgba(0, 0, 0, 0.18);
+}
+
+[theme='white'] .about__block-inner {
+    background: rgba(255, 255, 255, 0.72);
+}
+
+[theme='white'] .progress-inner {
+    background: rgba(255, 255, 255, 0.72);
+}
+
+[theme='white'] .header__button {
+    border: 2px solid #D1D1D1;
+    color: #4D0D0C;
+}
+
+[theme='white'] .about__dates {
+    border: 3px solid #F2C94C;
+}
+
+[theme='white'] .header__outer_active {
+    background: #fdfbf6e0;
+}
+
+[theme='white'] .progress-line {
+    background: #FFC22E;
+}
+
+[theme='white'] .progress-block {
+    background: rgba(242, 201, 76, 0.1);
+}
+
+[theme='white'] .progress-text-inner {
+    color: #534B36;
+    font-weight: 600;
+}
+
+[theme='white'] .progress-text {
+    z-index: 2;
+}
+
+[theme='white'] .home__desc span {
+    color: #FFC22E;
+}
+
+[theme='white'] .about__title span {
+    color: #FFC22E;
+}
+
+[theme='white'] .about__title back {
+    background: rgba(255, 194, 46, 0.1);
+}
+
+[theme='white'] .about__steps-item:before {
+    content: url(../fonts/step-arrow-dark.svg);
+}
+
+[theme='white'] .about__steps-item {
+    border: 2px dashed rgba(0, 0, 0, 0.27);
+}
+
+[theme='white'] .footer__controll {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+[theme='white'] .footer__controll:before {
+    width: 52px;
+    height: 52px;
+    background: #FFC22E;
+    position: absolute;
+    border-radius: 100%;
+    top: 0px;
+    left: 0;
+    content: '';
+}
+
+[theme='white'] .footer__controll:after {
+    position: absolute;
+    content: url(../images/arrow-up.png);
+    top: 17px;
+}
+
+[theme='white'] .footer__link {
+    background: #FFCDCD;
+}
+
+[theme='white'] .footer__controll {
+    width: unset;
+    height: unset;
+}
+
+[theme='white'] .form__input {
+    color: #4D0D0C;
+}
+
+[theme='white'] .form__input::placeholder {
+    color: #4D0D0C;
+}
+
+[theme='white'] .footer__outer {
+    position: relative;
+    z-index: 2;
+}
+
+[theme='white'] .footer__controll img {
+    opacity: 0;
+}
+
+[theme='white'] .footer__link img {
+    filter: invert(1);
+}
+
+[theme='white'] .footer__line {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+[theme='white'] .progress-left-value {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+[theme='white'] .progress-left-value span {
+    color: #4D0D0C;
+}
+
+[theme='white'] .footer__outer {
+    padding: 60px 0 60px 0;
+}
+
+[theme='white'] ::-webkit-scrollbar-thumb {
+    background-color: #FFC22E;
+    border: 2px solid #d9d9d9;
+}
+
+[theme='white'] ::-webkit-scrollbar-track {
+    background: #d9d9d9;
+}
+
+@media(max-width: 900px) {
+    [theme='white'] .home__bg {
+        content: url(../images/home-white-mob-bg.png);
+    }
+
+    [theme='white'] body {
+        background: #FAF8F8!important;
+    }
+
+    [theme='white'] .progress,
+    [theme='white'] .about__inner {
+        background: none;
+    }
+
+    [theme='white'] .about__inner {
+        background: #FBF5E7;
+    }
+
+    [theme='white'] .footer__controll {
+        border: solid 15px #FAF8F8;
+    }
+
+    [theme='white'] .about__block {
+        border-radius: 20px;
+    }
+}
